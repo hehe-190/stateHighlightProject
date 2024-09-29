@@ -1,7 +1,33 @@
-/*
 
-!/backend
-!/state-typeahead
+/.DS_Store
+/.localized
+/.Trash
+/.CFUserTextEncoding
+
+
+/.bash_history
+/.zsh_history
+/.vscode/
+/.npm/
+/.config/
+/.ssh/
+/.docker/
+/.ipython/
+/.jupyter/
+/.m2/
+/.nvm/
+
+
+/Applications/
+/Desktop/
+/Downloads/
+/Library/
+/Movies/
+/Music/
+/Pictures/
+/Public/
+
 
 *.log
-/tmp
+/tmp/
+
