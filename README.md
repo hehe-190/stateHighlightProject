@@ -14,19 +14,19 @@ npm install
 
 ng serve
 
-The frontend will be running on http://localhost:4200/. 
+The frontend will be running on http://localhost:4200/
 
-# Backend (Golang + GraphQL)
-## Dependencies
+## Backend (Golang + GraphQL)
+### Dependencies
 Ensure that Go is installed and go mod is initialized. Navigate to the backend directory and install the necessary dependencies:
 
 cd backend
 go mod tidy
 
-### Run the Backend Service
+#### Run the Backend Service
 
 go run main.go
 
-The backend service will be running on http://localhost:8080/.
+The backend service will be running on http://localhost:8080/
 
 
