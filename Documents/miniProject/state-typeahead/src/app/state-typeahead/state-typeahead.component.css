@@ -1,0 +1,51 @@
+.container {
+    /* next version needed to fixed the position */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  input {
+    width: 300px; /* need to change percent next version */
+    padding: 10px;
+    font-size: 1.2rem; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  label {
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    width: 320px; 
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  li.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  google-map { 
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+  }
+
+  

@@ -1,0 +1,31 @@
+ <div class="container">
+    <!-- search input -->
+    <label for="state-input">Search for a state:</label>
+    <input
+      id="state-input"
+      type="text"
+      [formControl]="stateControl"
+      placeholder="Enter a state"
+    />
+    
+    <!-- search result, highlight first one -->
+    <ul *ngIf="filteredStates | async as states">
+      <li
+        *ngFor="let state of states; let i = index"
+        [class.active]="i === activeIndex"
+        (click)="onStateSelected(state)"
+      >
+        {{ state }}
+      </li>
+    </ul>
+  
+    <!-- Google Maps  -->
+    <google-map
+      [center]="center"
+      [zoom]="zoom"
+      [options]="options"
+      height="500px"
+      width="100%"
+    ></google-map>
+  </div>
+  
