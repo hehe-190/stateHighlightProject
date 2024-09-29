@@ -23,7 +23,7 @@ Ensure that Go is installed and go mod is initialized. Navigate to the backend d
 cd backend
 go mod tidy
 
-#### Run the Backend Service
+### Run the Backend Service
 
 go run main.go
 
