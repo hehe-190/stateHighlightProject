@@ -1,11 +1,7 @@
-# Ignore binary files
-/backend
-/backend/*.exe
-/backend/*.bin
+/*
 
-# Ignore logs
-/log
+!/backend
+!/state-typeahead
+
 *.log
-
-# Ignore temporary files
 /tmp
